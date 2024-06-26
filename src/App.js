@@ -17,7 +17,7 @@ function App() {
       <h3>Input text:</h3>
       <h3>Count:{count}</h3>
       <hr/>
-      <ChildComponent count={count} onClick={incrementCount}/>
+      <ChildComponent count ={count} onClick={incrementCount}/>
 
     </div>
   );
@@ -34,3 +34,4 @@ const ChildComponent = React.memo(function({count,onClick}){
 })
 
 export default App;
+// main
